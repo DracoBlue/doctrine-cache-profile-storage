@@ -1,0 +1,20 @@
+{
+    "name": "dracoblue/doctrine-cache-profile-storage",
+    "description": "Use a Doctrine Cache as ProfilerStorageInterface for Symfonys Web Profiler.",
+    "keywords": ["profiler", "symfony", "cache"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DracoBlue",
+            "email": "JanS@DracoBlue.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "DracoBlue\\DoctrineCacheProfileStorage\\": "src/" }
+    },
+    "require": {
+        "doctrine/cache": "*",
+        "symfony/symfony": "*"
+    }
+}
